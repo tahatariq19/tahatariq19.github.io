@@ -2,7 +2,7 @@
 layout: default
 ---
 
-This is some text to test tab naming.
+
 
 # Welcome to My GitHub Pages Site!
 
