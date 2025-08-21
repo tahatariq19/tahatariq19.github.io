@@ -1,0 +1,45 @@
+body {
+    background-color: #000020;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+header, main, footer {
+    border: 2px solid #00ff00;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #ff00ff;
+}
+
+a {
+    color: #ff00ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #0d0d2b;
+    border: 1px solid #00ff00;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1, h2 {
+        letter-spacing: 3px;
+    }
+}
